@@ -17,6 +17,8 @@ panic-probe = { version = "0.3", features = ["print-defmt"] }
 # Raspberry Pi Pico BSP
 rp-pico = "0.8"
 
+fugit = "0.3.7"
+
 # cargo build/run
 [profile.dev]
 codegen-units = 1
